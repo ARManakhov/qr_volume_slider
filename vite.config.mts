@@ -26,6 +26,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/qr_volume_slider/',
   define: { 'process.env': {} },
   resolve: {
     alias: {
