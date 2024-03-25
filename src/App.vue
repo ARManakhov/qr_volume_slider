@@ -30,10 +30,16 @@
       <v-row>
         <v-col cols=2></v-col>
         <v-col cols="3">
-          <v-img v-bind:src='prev'></v-img>
+          <v-img v-bind:src='prev' ></v-img>
+          <v-card-title class="text-h6">
+            decrease volume
+          </v-card-title>
         </v-col>
         <v-col cols="3">
           <v-img v-bind:src='next'></v-img>
+          <v-card-title class="text-h6">
+            increase volume
+          </v-card-title>
         </v-col>
         <v-col cols=2></v-col>
       </v-row>
